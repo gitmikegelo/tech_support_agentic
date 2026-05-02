@@ -1,0 +1,168 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST001",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1-212-555-0101",
+      "account_status": "active",
+      "service_tier": "Gigabit 500",
+      "account_since": "2021-03-15",
+      "zip_code": "10001",
+      "region": "northeast",
+      "modem_mac": "00:1A:2B:3C:4D:5E",
+      "equipment": {
+        "modem": "NETGEAR CM500",
+        "router": "TP-Link Archer AX21"
+      },
+      "ticket_history": [
+        {
+          "ticket_id": "TKT-20260428-001",
+          "opened": "2026-04-28",
+          "closed": "2026-04-28",
+          "issue": "Slow internet speeds in the evening",
+          "status": "resolved",
+          "resolution": "Peak-hour node congestion. Customer advised to switch to 5 GHz WiFi band and schedule large downloads for off-peak hours."
+        },
+        {
+          "ticket_id": "TKT-20260315-007",
+          "opened": "2026-03-15",
+          "closed": "2026-03-15",
+          "issue": "No internet connection after power outage",
+          "status": "resolved",
+          "resolution": "Modem rebooted remotely. Service restored within 3 minutes."
+        },
+        {
+          "ticket_id": "TKT-20251201-022",
+          "opened": "2025-12-01",
+          "closed": "2025-12-03",
+          "issue": "Intermittent WiFi drops throughout the day",
+          "status": "resolved",
+          "resolution": "Field technician found corroded coax connector at wall plate. Connector replaced. Signal levels normalised."
+        }
+      ]
+    },
+    {
+      "customer_id": "CUST002",
+      "name": "Robert Garcia",
+      "email": "r.garcia@example.com",
+      "phone": "+1-312-555-0202",
+      "account_status": "active",
+      "service_tier": "Basic 100",
+      "account_since": "2023-07-22",
+      "zip_code": "60601",
+      "region": "midwest",
+      "modem_mac": "AA:BB:CC:DD:EE:FF",
+      "equipment": {
+        "modem": "Motorola MB8600",
+        "router": "ASUS RT-AX55"
+      },
+      "ticket_history": []
+    },
+    {
+      "customer_id": "CUST003",
+      "name": "Patricia Lee",
+      "email": "p.lee@example.com",
+      "phone": "+1-415-555-0303",
+      "account_status": "suspended",
+      "suspension_reason": "non_payment",
+      "outstanding_balance_usd": 94.50,
+      "service_tier": "Gigabit 1000",
+      "account_since": "2020-11-01",
+      "zip_code": "94105",
+      "region": "west",
+      "modem_mac": "11:22:33:44:55:66",
+      "equipment": {
+        "modem": "Arris SB8200",
+        "router": "Netgear Orbi RBK852"
+      },
+      "ticket_history": [
+        {
+          "ticket_id": "TKT-20260430-003",
+          "opened": "2026-04-30",
+          "closed": null,
+          "issue": "No internet — service not working",
+          "status": "open",
+          "resolution": null
+        }
+      ]
+    },
+    {
+      "customer_id": "CUST004",
+      "name": "David Kim",
+      "email": "d.kim@example.com",
+      "phone": "+1-713-555-0404",
+      "account_status": "active",
+      "service_tier": "Gigabit 1000",
+      "account_since": "2019-06-10",
+      "zip_code": "77001",
+      "region": "south",
+      "modem_mac": "DE:AD:BE:EF:00:01",
+      "equipment": {
+        "modem": "Arris SB8200",
+        "router": "TP-Link Deco XE75"
+      },
+      "ticket_history": [
+        {
+          "ticket_id": "TKT-20260410-011",
+          "opened": "2026-04-10",
+          "closed": "2026-04-10",
+          "issue": "DNS resolution failures on specific websites",
+          "status": "resolved",
+          "resolution": "Customer's ISP-assigned DNS was experiencing delays. Configured router to use Cloudflare DNS (1.1.1.1). Issue resolved immediately."
+        }
+      ]
+    },
+    {
+      "customer_id": "CUST005",
+      "name": "Marcus Webb",
+      "email": "m.webb@example.com",
+      "phone": "+1-404-555-0505",
+      "account_status": "active",
+      "service_tier": "Gigabit 500",
+      "account_since": "2022-08-14",
+      "zip_code": "30301",
+      "region": "south",
+      "modem_mac": "F0:E1:D2:C3:B4:A5",
+      "equipment": {
+        "modem": "NETGEAR CM600",
+        "router": "TP-Link Archer AX50"
+      },
+      "ticket_history": [
+        {
+          "ticket_id": "TKT-20260502-014",
+          "opened": "2026-05-02",
+          "closed": null,
+          "issue": "Complete loss of internet — modem showing all orange lights and cannot lock downstream channels",
+          "status": "open",
+          "resolution": null
+        },
+        {
+          "ticket_id": "TKT-20260429-011",
+          "opened": "2026-04-29",
+          "closed": "2026-04-29",
+          "issue": "Intermittent drops and very slow speeds",
+          "status": "resolved",
+          "resolution": "Remote reboot attempted twice — partial improvement only. Downstream SNR (signal-to-noise ratio) still below threshold at 24 dB (expected ≥30 dB). Escalation recommended but customer declined field visit at that time."
+        },
+        {
+          "ticket_id": "TKT-20260412-003",
+          "opened": "2026-04-12",
+          "closed": "2026-04-13",
+          "issue": "Frequent packet loss and high latency",
+          "status": "resolved",
+          "resolution": "Remote reboot temporarily restored service. Signal levels remain marginal. Suspected water ingress or damaged coax splice at junction box. Field inspection recommended."
+        },
+        {
+          "ticket_id": "TKT-20260301-008",
+          "opened": "2026-03-01",
+          "closed": "2026-03-01",
+          "issue": "No internet after heavy rain",
+          "status": "resolved",
+          "resolution": "Remote reboot restored connection. Noted correlation with wet weather — possible outdoor coax or tap issue. Field visit suggested; customer said he would call back to schedule."
+        }
+      ],
+      "notes": "MANDATORY DIAGNOSTIC FLOW: (1) Always use reboot_modem_remotely as the first action — an ISP-side remote reboot performs a full provisioning refresh and upstream channel reset that a customer manual power cycle cannot do. Even if the customer says they already rebooted manually, the remote reboot is a different and more thorough operation. (2) After the remote reboot completes, check the post-reboot signal levels in the tool result. (3) If downstream SNR is still below 30 dB or downstream power is still outside -7 to +7 dBmV range after the remote reboot, then and only then escalate to field dispatch for physical line inspection. Root cause is suspected damaged outdoor coax or corroded tap correlating with wet weather across 4 tickets in 2 months."
+    }
+  ]
+}

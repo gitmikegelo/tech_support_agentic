@@ -1,0 +1,6 @@
+{"ts": "2026-05-01T18:35:32.875854+00:00", "event": "session_start", "data": {"trace_file": "traces\\conv_20260501_183532.jsonl"}}
+{"ts": "2026-05-01T18:35:41.121172+00:00", "event": "user_message", "data": {"text": "Hi, yeah, I'm calling because my internet's been down since this morning and I really need to get it back up. I've tried unplugging things but nothing's working."}}
+{"ts": "2026-05-01T18:35:41.122179+00:00", "event": "plan_step", "data": {"iteration": 1, "tool_calls_so_far": 0, "tokens_so_far": 0}}
+{"ts": "2026-05-01T18:35:43.558842+00:00", "event": "llm_response", "data": {"stop_reason": "end_turn", "text": "I'll help you get to the bottom of this. Let me start by pulling up your account and running some diagnostics on your connection.\n\nTo get started, I'll need your customer ID or account number. Can you provide that?", "tool_uses": [], "usage": {"input_tokens": 2675, "output_tokens": 51}}}
+{"ts": "2026-05-01T18:35:44.585985+00:00", "event": "critic", "data": {"passed": true, "feedback": "OK", "uncited_claims": []}}
+{"ts": "2026-05-01T18:35:44.585985+00:00", "event": "assistant_message", "data": {"text": "I'll help you get to the bottom of this. Let me start by pulling up your account and running some diagnostics on your connection.\n\nTo get started, I'll need your customer ID or account number. Can you provide that?"}}

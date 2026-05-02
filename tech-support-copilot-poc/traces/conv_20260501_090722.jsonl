@@ -1,0 +1,5 @@
+{"ts": "2026-05-01T09:07:22.751309+00:00", "event": "session_start", "data": {"trace_file": "traces\\conv_20260501_090722.jsonl"}}
+{"ts": "2026-05-01T09:07:32.170685+00:00", "event": "user_message", "data": {"text": "Hi. How can I help?"}}
+{"ts": "2026-05-01T09:07:32.171685+00:00", "event": "plan_step", "data": {"iteration": 1, "tool_calls_so_far": 0, "tokens_so_far": 0}}
+{"ts": "2026-05-01T09:07:34.014205+00:00", "event": "error", "data": {"message": "Bedrock invocation failed", "detail": "Bedrock API error [ValidationException]: An error occurred (ValidationException) when calling the Converse operation: Invocation of model ID anthropic.claude-haiku-4-5-20251001-v1:0 with on-demand throughput isn\u2019t supported. Retry your request with the ID or ARN of an inference profile that contains this model."}}
+{"ts": "2026-05-01T09:07:34.035543+00:00", "event": "assistant_message", "data": {"text": "I'm unable to process the request right now due to a service error. Please try again in a moment."}}

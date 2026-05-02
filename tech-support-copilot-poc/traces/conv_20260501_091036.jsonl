@@ -1,0 +1,6 @@
+{"ts": "2026-05-01T09:10:36.060592+00:00", "event": "session_start", "data": {"trace_file": "traces\\conv_20260501_091036.jsonl"}}
+{"ts": "2026-05-01T09:10:41.992591+00:00", "event": "user_message", "data": {"text": "Hi. How can I help?"}}
+{"ts": "2026-05-01T09:10:41.993981+00:00", "event": "plan_step", "data": {"iteration": 1, "tool_calls_so_far": 0, "tokens_so_far": 0}}
+{"ts": "2026-05-01T09:10:44.895930+00:00", "event": "llm_response", "data": {"stop_reason": "end_turn", "text": "Hi! I'm ready to assist you with a customer support issue. To get started, I'll need:\n\n**What is the customer's ID?**\n\nOnce you provide that, I'll pull up their account and run initial diagnostics to understand what's going on.", "tool_uses": [], "usage": {"input_tokens": 2507, "output_tokens": 59}}}
+{"ts": "2026-05-01T09:10:45.912972+00:00", "event": "critic", "data": {"passed": true, "feedback": "OK", "uncited_claims": []}}
+{"ts": "2026-05-01T09:10:45.912972+00:00", "event": "assistant_message", "data": {"text": "Hi! I'm ready to assist you with a customer support issue. To get started, I'll need:\n\n**What is the customer's ID?**\n\nOnce you provide that, I'll pull up their account and run initial diagnostics to understand what's going on."}}

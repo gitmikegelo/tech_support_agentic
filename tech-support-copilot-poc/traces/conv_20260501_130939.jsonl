@@ -1,0 +1,6 @@
+{"ts": "2026-05-01T13:09:39.187305+00:00", "event": "session_start", "data": {"trace_file": "traces\\conv_20260501_130939.jsonl"}}
+{"ts": "2026-05-01T13:09:42.404689+00:00", "event": "user_message", "data": {"text": "Hi, yes, so I've been having really slow internet for the past couple of days and I'm not sure what's going on. It's been frustrating because I need it for work."}}
+{"ts": "2026-05-01T13:09:42.404689+00:00", "event": "plan_step", "data": {"iteration": 1, "tool_calls_so_far": 0, "tokens_so_far": 0}}
+{"ts": "2026-05-01T13:09:44.544371+00:00", "event": "llm_response", "data": {"stop_reason": "end_turn", "text": "I'll help you get to the bottom of this. Let me start by gathering some diagnostic information about your account and connection.\n\nTo begin, I need your customer ID or account number. Can you provide that?", "tool_uses": [], "usage": {"input_tokens": 2677, "output_tokens": 46}}}
+{"ts": "2026-05-01T13:09:45.578463+00:00", "event": "critic", "data": {"passed": true, "feedback": "OK", "uncited_claims": []}}
+{"ts": "2026-05-01T13:09:45.579476+00:00", "event": "assistant_message", "data": {"text": "I'll help you get to the bottom of this. Let me start by gathering some diagnostic information about your account and connection.\n\nTo begin, I need your customer ID or account number. Can you provide that?"}}
